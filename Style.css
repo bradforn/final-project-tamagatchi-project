@@ -1,14 +1,36 @@
 /* CSS code here */
 .head {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  margin: 0px;
   text-align: center;
   color: white;
-  
 }
-h1 {
+
+body {
   font-family: "Comic Sans MS", cursive, sans-serif;
- 
-  font-weight: 400;
+  margin: 0;
+}
+
+header {
+  padding: 5px 20px 0 5px;
+  background-color: green;
+}
+
+header h1 {
+  
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 72px;
+  font-weight: 200;
+  margin: 5px 20px;
   font-style: normal;
+}
+
+nav {
+  background-color: #333;
+  color: white;
+  margin: 0 -20px;
+  font-size: 28px;
+  font-weight: 200;
 }
 
 .navbar-list {
@@ -33,20 +55,6 @@ h1 {
 
 .navbar-right {
   float: right;
-}
-
-nav {
-  background-color: #333;
-  color: white;
-  margin: 0 -20px; 
-  font-size: 28px;
-  font-weight: 200;
-}
-
-header {
-  padding: 5px 20px 0 5px;
-  background-color: green;
-
 }
 
 footer {
