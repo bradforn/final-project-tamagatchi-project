@@ -1,14 +1,14 @@
 /* CSS code here */
+
+body {
+  font-family: "Trebuchet MS", cursive, sans-serif;
+  margin: 0;
+}
+
 .head {
-  font-family: "Comic Sans MS", cursive, sans-serif;
   margin: 0px;
   text-align: center;
   color: white;
-}
-
-body {
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  margin: 0;
 }
 
 header {
@@ -17,8 +17,6 @@ header {
 }
 
 header h1 {
-  
-  font-family: "Comic Sans MS", cursive, sans-serif;
   font-size: 72px;
   font-weight: 200;
   margin: 5px 20px;
@@ -84,4 +82,10 @@ footer .copyright {
   border-style: ridge;
   border-width: thick;
   border-radius: 10px;
+}
+
+.about-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
