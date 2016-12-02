@@ -84,8 +84,18 @@ footer .copyright {
   border-radius: 10px;
 }
 
+.about {
+  font-size: large;
+  padding-top: 2.5%;
+}
+
 .about-footer {
   position: absolute;
   bottom: 0;
   width: 100%;
+}
+
+#manual {
+  padding-top: 2%;
+  font-size: large;
 }
